@@ -76,10 +76,16 @@ h3 {
   text-align: justify;
 }
 
+/* .skillBox {
+  border: solid black;
+} */
+
 .skills {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: column wrap;
+  height: 5vh;
 }
 
 .skills li {
