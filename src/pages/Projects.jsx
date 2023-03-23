@@ -6,13 +6,19 @@ function Projects() {
       <h1>Projects</h1>
       <ul className="projects">
         <li>Social Media Lab Simulation</li>
-        <span >https://github.com/sdorado2/facebook_mockup</span>
+        <a href="https://github.com/sdorado2/facebook_mockup">
+          https://github.com/sdorado2/facebook_mockup
+        </a>
 
         <li>E-commerce Lab Simulation</li>
-        <span>https://github.com/sdorado2/lego_mockup</span>
+        <a href="https://github.com/sdorado2/lego_mockup">
+          https://github.com/sdorado2/lego_mockup
+        </a>
 
         <li>Video Game Project</li>
-        <span>https://github.com/sdorado2/Project_Falling</span>
+        <a href="https://github.com/sdorado2/Project_Falling">
+          https://github.com/sdorado2/Project_Falling
+        </a>
       </ul>
     </div>
   );

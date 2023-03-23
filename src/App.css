@@ -117,8 +117,12 @@ h3 {
   color: #fda30c;
 }
 
-.projects span {
+.projects a {
   color: white;
+}
+.projects a:hover {
+  color: black;
+  background-color: white;
 }
 
 .education {
