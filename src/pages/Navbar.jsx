@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <Link to="/">
-        <div>Main Page</div>
+        <div>Salvador Dorado</div>
       </Link>
       <Link to="/summary">
         <div>Summary</div>

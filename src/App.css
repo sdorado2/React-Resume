@@ -49,6 +49,7 @@ h3 {
 }
 
 .navbar {
+  font-size: x-large;
   display: flex;
   justify-content: space-around;
   border: double black;
