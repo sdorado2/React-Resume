@@ -1,3 +1,14 @@
+body {
+  background-color: #25383d;
+}
+
+h1,
+h3 {
+  color: #fda30c;
+  font-family: Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +46,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  border: double black;
+  background-color: #25383d;
+}
+
+.navbar a {
+  color: #fda30c;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: white;
+  background-color: darkcyan;
+  border-radius: 2px;
+}
+
+.sumBox {
+  width: 60svw;
+  margin: auto;
+}
+
+.summary {
+  color: #fda30c;
+  text-align: justify;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+
+.skills li {
+  text-align: start;
+  color: #fda30c;
+}
+
+.expTxt {
+  color: #fda30c;
+}
+
+.experience {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+}
+
+.experience li {
+  color: #fda30c;
+}
+
+.projects {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.projects li {
+  color: #fda30c;
+}
+
+.projects span {
+  color: white;
+}
+
+.education {
+  color: #fda30c;
 }
