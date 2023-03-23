@@ -82,6 +82,7 @@ h3 {
 } */
 
 .skills {
+  font-size: larger;
   display: flex;
   justify-content: center;
   align-items: center;
